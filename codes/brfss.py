@@ -450,7 +450,7 @@ for val in sorted(codebook.values()):
     prev = val[1]
     size.append(prev - val[0])
 for entry in diff:
-    assert(entry >= 1)
+    assert entry >= 1
 assert sum(diff) + sum(size) == 2051
 
 # Set the filename containing the data from the BRFSS of the CDC.
